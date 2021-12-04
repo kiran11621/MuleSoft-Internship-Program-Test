@@ -2,27 +2,7 @@
 
 <h3>Setup Connection</h3>
 ```bash
-<?php
-include("navbar.php");
-
-    // setting server name, username and password
-    $server_name = "localhost";
-    $username = "root";
-    $password = "";
-
-    // create connection 
     $conn = new mysqli($server_name, $username, $password);
-
-    // check connection 
-    if($conn->connect_error) {
-        die("Connection Failed: ". $conn->connect_error);
-    } else {
-        echo "<h3>Connection Successful</h3>";
-    }
-
-    // closing connection
-    // $conn->close();
-?>
 ```
 <img align="left" height="270px" alt="hello_world" src="https://github.com/kiran11621/Coding-Marshals/blob/f7eae4a6f91b9f5c42626714bc1d6c04212cb9b6/introduction.png" />
 
