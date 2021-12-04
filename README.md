@@ -71,6 +71,16 @@
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(23).png" />
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(24).png" />
 
+```bash
+   if (isset($_POST["movie_btn"])) {
+	$movie = $_POST['movie'];
+	$select = "SELECT * FROM movies where movie_name='$movie'";
+	$run = mysqli_query($conn, $select);
+
+	printdata($run);
+   }
+```
+
 <h3>Keyword Search</h3>
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(25).png" />
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(26).png" />
