@@ -8,7 +8,23 @@
 
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(18).png" />
 
-<h3>Our Motive</h3>
+<h3>Create Database and Table</h3>
+
+
+```bash
+  $sql = "CREATE DATABASE Movies_Database;";
+  if (mysqli_select_db($conn, $database_name)) {
+      echo "<h3>Database Already Exists</h3>";
+  }
+  // if database not exist create 
+  else {
+      if (mysqli_query($conn, $sql)) {
+          echo "<h3>Database Created Successfully</h3>";
+      } else {
+          echo "Error occured creating Database: " . mysqli_error($conn);
+      }
+  }
+```
 
 - A platform where we can create and organize Coding Competition within few minutes, giving users features to clone, create and use questions which are already available at the platform, no need of prior permission, no need for grants or no such formalities, can control who can take part in the contest.
 - Just with few simple steps create and compete in coding competition with your friends and frenemies. 
