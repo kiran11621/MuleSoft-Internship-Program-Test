@@ -1,9 +1,6 @@
 <h1 align="center">MuleSoft Internship Program Test</h1>
 
 <h3>Setup Connection</h3>
-```bash
-    
-```
 
 ```bash
   $conn = new mysqli($server_name, $username, $password);
