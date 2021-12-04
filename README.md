@@ -71,6 +71,8 @@
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(23).png" />
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(24).png" />
 
+<h3>Keyword Search</h3>
+
 ```bash
    if (isset($_POST["movie_btn"])) {
 	$movie = $_POST['movie'];
@@ -81,6 +83,5 @@
    }
 ```
 
-<h3>Keyword Search</h3>
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(25).png" />
 <img alt="hello_world" src="https://github.com/kiran11621/MuleSoft-Internship-Program-Test/blob/main/images/Screenshot%20(26).png" />
